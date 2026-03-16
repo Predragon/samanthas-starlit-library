@@ -185,6 +185,14 @@ html, body, #root {
   font-style: italic;
 }
 
+.cover-dedication {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-top: 0.75rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
 .cover-tap {
   font-size: 0.8rem;
   color: var(--text-dim);
