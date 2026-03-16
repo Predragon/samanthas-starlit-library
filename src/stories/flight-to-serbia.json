@@ -6,7 +6,7 @@
   "subtitle": "A Bedtime Story by Dady Fredy",
   "date": "2025-07-01",
   "dedication": "For Samantha — born in Angeles City, roots in Belgrade.",
-  "closingEmoji": "✈️🇷🇸💤",
+  "closingEmoji": "🌙💤",
   "theme": {
     "sky": ["#162040", "#0a0e22"],
     "accent": "#ff9f43",
@@ -22,13 +22,134 @@
     },
     {
       "type": "verse",
-      "scene": "flight",
+      "scene": "start",
       "stanza": 1,
       "lines": [
-        "Pack your bags, Samantha — we're leaving tonight!",
-        "On a paper airplane bathed in moonlight.",
-        "From Angeles City where you were born,",
-        "To Belgrade, Serbia — by the break of morn."
+        "The suitcase was packed and the passports were found,",
+        "And Mommy said softly, \"We're leaving the ground.\"",
+        "Dady Fredy knelt down with a wink and a smile,",
+        "\"We're flying to Serbia, anak — in style.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "flight",
+      "stanza": 2,
+      "lines": [
+        "The airplane climbed high through the dark, starry sky,",
+        "And Samantha pressed close as the world floated by.",
+        "The houses grew tiny, the forests and seas,",
+        "While the ocean below shimmered gold in the breeze."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "stanza": 3,
+      "lines": [
+        "\"Where are we going?\" she whispered with wonder,",
+        "With moonlight above and the city lights under.",
+        "The rivers like silver, the highways aflame—",
+        "And Mommy said softly, \"Where Dady began.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "rooftops",
+      "stanza": 4,
+      "lines": [
+        "They landed in Belgrade when morning was new,",
+        "Where the Danube flowed wide under pale morning blue.",
+        "The cobblestones whispered beneath little feet,",
+        "As if the old city had risen to meet."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "rooftops",
+      "stanza": 5,
+      "lines": [
+        "They walked hand in hand through Kalemegdan's walls,",
+        "Where fortress towers stood ancient and tall.",
+        "Samantha ran laughing through archways of stone,",
+        "And the wind seemed to murmur, \"Welcome back home.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "stanza": 6,
+      "lines": [
+        "They sat by the river and shared warm burek,",
+        "Flaky and golden on the warm stone deck.",
+        "Dady said, \"Taste it — this city runs through you,\"",
+        "As the bells of the St. Sava rang soft and rang true."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "firefly",
+      "stanza": 7,
+      "lines": [
+        "They wandered through Skadarlija, music drifting along,",
+        "Where lanterns glowed amber and old fiddles sang on.",
+        "An old man was humming a tune low and so sweet,",
+        "And Samantha swayed gently, half-asleep on her feet."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "rooftops",
+      "stanza": 8,
+      "lines": [
+        "The streetlamps of Belgrade blinked on one by one,",
+        "As the city grew quiet, the long day now done.",
+        "They carried Samantha through warm evening air,",
+        "Past gardens and churches and stairways of prayer."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 9,
+      "lines": [
+        "Dady Fredy spread blankets beneath the night sky,",
+        "Where the stars over Serbia drifted on by.",
+        "And Mommy curled close, and they held her between—",
+        "The safest, most beautiful place she had been."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 10,
+      "lines": [
+        "\"Dady was born here,\" he said, looking round,",
+        "\"And Mommy grew up on warm island ground.",
+        "They met in Angeles — and right from the start,",
+        "You were the song living inside every heart.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 11,
+      "lines": [
+        "\"Two countries, two stories, now woven in one—",
+        "The Philippines, Serbia… and you, little sun.",
+        "Wherever we travel, wherever we roam,",
+        "With us, my child… you are always at home.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 12,
+      "lines": [
+        "\"So close your eyes now, Samantha, my dear…",
+        "Mommy and Dady are always right here.",
+        "Dream of the river, the fortress, the song—",
+        "You come from a love that is two countries strong.\""
       ]
     },
     {
@@ -38,7 +159,7 @@
         "Goodnight, Samantha.",
         "Goodnight, anak."
       ],
-      "emoji": "✈️🇷🇸💤"
+      "emoji": "🌙💤"
     }
   ]
 }
