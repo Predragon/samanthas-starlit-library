@@ -1,0 +1,171 @@
+{
+  "id": "rainbow-unicorn",
+  "title": "Samantha and the Rainbow Unicorn",
+  "emoji": "🦄",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2026-03-17",
+  "dedication": "For Samantha — mala zvezdice.",
+  "closingEmoji": "🌙💤",
+  "theme": {
+    "sky": ["#1a1040", "#0d0a28"],
+    "accent": "#e0a0ff",
+    "mood": "magical-wonder"
+  },
+  "refrain": {
+    "lines": ["Over the rainbow,", "under the stars…", "Duga will find you", "wherever you are."],
+    "closing": ["Over the rainbow,", "under the stars…", "Duga is sleeping", "right where the dreams are."],
+    "afterStanzas": [3, 6, 9]
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Samantha and the Rainbow Unicorn",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "🦄",
+      "dedication": "For Samantha — mala zvezdice."
+    },
+    {
+      "type": "verse",
+      "scene": "bedroom-stars",
+      "stanza": 1,
+      "lines": [
+        "The stars blinked softly above Samantha's bed,",
+        "As moonlight played silver round Dady Fredy's head.",
+        "\"Come, anak,\" he whispered, \"come look at the sky—",
+        "Something is coming. I hear hooves up high.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "unicorn-arrival",
+      "stanza": 2,
+      "lines": [
+        "A shimmer of colors came spiraling down,",
+        "A sparkle of hooves and a mane like a crown.",
+        "Out of the clouds stepped a unicorn white,",
+        "With a horn made of moonstone that glistened with light."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "unicorn-arrival",
+      "stanza": 3,
+      "lines": [
+        "\"Her name,\" Dady whispered, \"is Duga — that means",
+        "'Rainbow' in Serbian, the language of dreams.\"",
+        "She bowed her bright head and said, gentle and true:",
+        "\"Come, mala zvezdice — I've come here for you.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "cloud-gallop",
+      "stanza": 4,
+      "lines": [
+        "Samantha climbed up and held tight to her mane,",
+        "And Dady Fredy leapt on — they were soaring again!",
+        "They rose through the clouds like a warm evening breeze,",
+        "Past sleeping volcanoes and cinnamon trees."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "belgrade-glow",
+      "stanza": 5,
+      "lines": [
+        "They galloped past Belgrade where two rivers meet,",
+        "Where Sava joins Danube beneath the moon's sheet.",
+        "Old Kalemegdan glowed golden below,",
+        "And Samantha waved down at the city's soft glow."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "serbian-feast",
+      "stanza": 6,
+      "lines": [
+        "A bear baked pogača beneath a plum tree,",
+        "While hedgehogs served honey and wild cherry tea.",
+        "A cricket played gusle — one string, one small bow—",
+        "And everything hummed in a soft, sleepy flow."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "butterfly-ocean",
+      "stanza": 7,
+      "lines": [
+        "\"Look there!\" Samantha laughed — butterflies all around,",
+        "With wings made of silk that made barely a sound.",
+        "Below them the oceans glowed sapphire and blue,",
+        "And islands of coral came drifting in view."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "meadow-gallop",
+      "stanza": 8,
+      "lines": [
+        "Duga ran faster through rivers of light,",
+        "Through orchards of plum trees and meadows of white.",
+        "Past mountains where eagles told stories in song,",
+        "And valleys where fireflies flickered along."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "unicorn-descent",
+      "stanza": 9,
+      "lines": [
+        "But even bright unicorns slow down their stride,",
+        "When dream journeys end and it's time for the ride",
+        "Back home through the silver and soft evening air,",
+        "With moonlight like diamonds caught bright in their hair."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "unicorn-landing",
+      "stanza": 10,
+      "lines": [
+        "She carried them gently back down through the sky,",
+        "Where stars blinked like candles and clouds drifted by.",
+        "Duga knelt softly on grass wet with dew,",
+        "And whispered, \"Laku noć, zvezdice — I'll dream of you, too.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "promise",
+      "stanza": 11,
+      "lines": [
+        "And Dady Fredy held Samantha so tight,",
+        "And whispered the words he says every night:",
+        "\"Wherever you wander, anak… wherever you roam—",
+        "My Samantha, my zvezdice… you're always home.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 12,
+      "lines": [
+        "So close your bright eyes now, my Samantha, my dear,",
+        "The unicorn's rainbow is resting right here.",
+        "The stars are all sleeping, the night soft and deep—",
+        "And Dady Fredy loves you.",
+        "Now drift into sleep."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "unicorn-landing",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🌙💤"
+    }
+  ]
+}
