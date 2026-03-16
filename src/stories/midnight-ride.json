@@ -1,118 +1,133 @@
 {
   "id": "midnight-ride",
-  "title": "The Midnight Ride",
-  "emoji": "🚲",
+  "title": "Samantha's Midnight Ride",
+  "emoji": "🌙",
   "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2025-06-01",
+  "dedication": "For Samantha, always.",
+  "closingEmoji": "🌙💤",
   "theme": {
-    "sky": ["#0c1a3a", "#070d1f"],
-    "accent": "#f0c040",
-    "mood": "adventure-wonder"
+    "sky": ["#111d42", "#0b1026"],
+    "accent": "#f5d76e",
+    "mood": "dreamy"
   },
   "pages": [
     {
       "type": "cover",
-      "title": "The Midnight Ride",
-      "subtitle": "A poem for Samantha",
-      "emoji": "🚲"
+      "title": "Samantha's Midnight Ride",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "🌙",
+      "dedication": "For Samantha, always."
     },
     {
       "type": "verse",
       "scene": "start",
+      "stanza": 1,
       "lines": [
-        "When the moon climbs high",
-        "and the stars say \"Go!\"",
-        "we hop on our bikes",
-        "through the silver glow."
+        "The stars came out, the crickets sang,",
+        "And Dady Fredy's bicycle rang.",
+        "\"Hop on, Samantha! Hold on tight—",
+        "We're riding somewhere magic tonight.\""
       ]
     },
     {
       "type": "verse",
       "scene": "bikes",
+      "stanza": 2,
       "lines": [
-        "My wheels hum a song,",
-        "yours sing it right back—",
-        "two midnight riders",
-        "on a winding track."
+        "Two bicycles waited at the edge of the lane,",
+        "One silver as moonlight, one gold as a flame.",
+        "Their wheels were made of stardust and breeze,",
+        "Their handlebars wrapped in the leaves of the trees."
       ]
     },
     {
       "type": "verse",
       "scene": "firefly",
+      "stanza": 3,
       "lines": [
-        "Fireflies blink hello",
-        "from the tall, dark trees.",
-        "Their tiny gold lanterns",
-        "float on the breeze."
+        "They pedaled together down Firefly Road,",
+        "Where lanterns of lightning bugs twinkled and glowed.",
+        "The path turned to ribbon, the ribbon to light,",
+        "And up went their wheels — they were cycling the night."
       ]
     },
     {
       "type": "verse",
       "scene": "rooftops",
+      "stanza": 4,
       "lines": [
-        "We pedal past rooftops",
-        "where chimneys sleep tight,",
-        "past gardens of shadows",
-        "and porches of light."
+        "They rode past the rooftops, they rode past the birds,",
+        "Past sleepy volcanoes too dreamy for words.",
+        "The clouds made a bike lane of cotton and mist,",
+        "And every soft bump was a star that they kissed."
       ]
     },
     {
       "type": "verse",
       "scene": "comets",
+      "stanza": 5,
       "lines": [
-        "A comet streaks by—",
-        "did you see it flash?",
-        "A silver-tailed wonder,",
-        "a stardust splash!"
+        "\"Look, Dady!\" Samantha laughed, starting to spin,",
+        "As comets with streamers came racing within.",
+        "They rang both their bells — and the moon rang one too,",
+        "A silver ding-ding above oceans of blue."
       ]
     },
     {
       "type": "verse",
       "scene": "owls",
+      "stanza": 6,
       "lines": [
-        "The owls on the fence posts",
-        "nod as we pass.",
-        "\"Goodnight,\" hoots the biggest,",
-        "\"ride safe through the grass.\""
+        "They coasted downhill on a river of sky,",
+        "While night-blooming flowers waved softly goodbye.",
+        "A family of owls on a branch tipped their wings,",
+        "And somewhere far off, sleepy Saturn still swings."
       ]
     },
     {
       "type": "verse",
       "scene": "aurora",
+      "stanza": 7,
       "lines": [
-        "The sky turns to colors—",
-        "green, purple, and blue.",
-        "An aurora of magic",
-        "painted just for you."
+        "They pedaled through curtains of Northern Light green,",
+        "The most glowing colors they'd ever seen.",
+        "Their tires left trails of soft shimmering gold,",
+        "Like stories too magical ever be told."
       ]
     },
     {
       "type": "verse",
       "scene": "descent",
+      "stanza": 8,
       "lines": [
-        "Now the hill slopes down",
-        "and we coast, slow and sweet.",
-        "The wind hums a lullaby,",
-        "the road meets our feet."
+        "But even brave riders grow sleepy and tired,",
+        "And even bright wheels must one day be retired.",
+        "So softly they glided back down through the air,",
+        "With wind in their eyes and the moon in their hair."
       ]
     },
     {
       "type": "verse",
       "scene": "tree",
+      "stanza": 9,
       "lines": [
-        "We park by the old oak",
-        "where the crickets all play,",
-        "and we whisper our wishes",
-        "to the Milky Way."
+        "They parked both their bicycles under a tree",
+        "Where fireflies whispered, \"Goodnight… one… two… three…\"",
+        "And Dady Fredy knelt down and said low,",
+        "\"Wherever you ride, anak… I will go.\""
       ]
     },
     {
       "type": "verse",
       "scene": "final",
+      "stanza": 10,
       "lines": [
-        "Then I carry you home",
-        "on the handlebars' throne.",
-        "Two riders, one heartbeat—",
-        "never riding alone."
+        "\"So close your eyes now, Samantha, my dear…",
+        "Dady Fredy is always right here.",
+        "Dream of the stars and our bicycles bright—",
+        "I'll ride beside you… each and every…night.\""
       ]
     },
     {
@@ -122,7 +137,7 @@
         "Goodnight, Samantha.",
         "Goodnight, anak."
       ],
-      "emoji": "🚲"
+      "emoji": "🌙💤"
     }
   ]
 }

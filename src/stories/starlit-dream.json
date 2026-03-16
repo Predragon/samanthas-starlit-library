@@ -6,7 +6,7 @@
   "subtitle": "A Bedtime Story by Dady Fredy",
   "date": "2025-05-15",
   "dedication": "For Samantha — dream big, anak.",
-  "closingEmoji": "⭐💤",
+  "closingEmoji": "🌙💤",
   "theme": {
     "sky": ["#1a1040", "#0b0820"],
     "accent": "#c8a8ff",
@@ -22,13 +22,97 @@
     },
     {
       "type": "verse",
-      "scene": "clouds",
+      "scene": "start",
       "stanza": 1,
       "lines": [
-        "When the moon climbs high and the world grows still,",
-        "And the stars line up on the windowsill,",
-        "Samantha closes her sleepy eyes—",
-        "And floats away through the purple skies."
+        "The moon climbed high, the sky turned blue,",
+        "And Dady Fredy whispered, \"This one's for you.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "start",
+      "stanza": 2,
+      "lines": [
+        "\"Come close, Samantha, rest your head—",
+        "I have a story to tell you before bed.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "stanza": 3,
+      "lines": [
+        "\"Once there was a girl so brave and bright,",
+        "Whose laughter could turn the dark into light.",
+        "She carried a sparkle wherever she'd go,",
+        "From the tips of her toes to the top of her bow.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "stanza": 4,
+      "lines": [
+        "\"She sailed on a cloud past the silvery moon,",
+        "And hummed to the stars a soft, sleepy tune.",
+        "The dolphins below leapt high from the sea",
+        "And called out, 'Samantha! Come dance with me!'\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "firefly",
+      "stanza": 5,
+      "lines": [
+        "She twirled with the fireflies — one… two… three…",
+        "Then rode on a rainbow, happy and free.",
+        "The wind sang a lullaby, gentle and sweet,",
+        "And tucked tiny flowers around her feet."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "owls",
+      "stanza": 6,
+      "lines": [
+        "She danced with the owls through the velvet night air,",
+        "With moondust like ribbons caught up in her hair.",
+        "The stars leaned down softly to whisper her name,",
+        "And even the Northern Lights shimmered like flame."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "stanza": 7,
+      "lines": [
+        "She drifted through clouds made of pillow-soft light,",
+        "Where dream birds were humming goodnight… goodnight…",
+        "The moon, like a lantern hung high in the sky,",
+        "Watched over Samantha as she floated by."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "descent",
+      "stanza": 8,
+      "lines": [
+        "But even the bravest adventurers rest,",
+        "So she flew herself home to the place she loves best—",
+        "Where Daddy was waiting with arms open wide,",
+        "And whispered, 'I love you,' and held her with pride."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 9,
+      "lines": [
+        "\"So close your eyes now, Samantha, my dear…",
+        "Dady Fredy is always… right here.",
+        "Dream of the stars and the dolphins at play—",
+        "I'll love you tomorrow… and every… day.\""
       ]
     },
     {
@@ -38,7 +122,7 @@
         "Goodnight, Samantha.",
         "Goodnight, anak."
       ],
-      "emoji": "⭐💤"
+      "emoji": "🌙💤"
     }
   ]
 }
