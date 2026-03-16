@@ -1,0 +1,198 @@
+{
+  "id": "sky-dolphins",
+  "title": "Sky Dolphins",
+  "emoji": "🐬",
+  "author": "Dady Fredy",
+  "theme": {
+    "sky": ["#0a1628", "#061020"],
+    "accent": "#40c9c9",
+    "mood": "ocean-wonder"
+  },
+  "refrain": {
+    "lines": ["Swim through the sky…", "Fly through the sea…", "Sky dolphins carry", "Samantha and me."],
+    "closing": ["Swim through the sky…", "Fly through the sea…", "Sky dolphins sleeping", "Till tomorrow's dream."],
+    "afterStanzas": [3, 7, 11]
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Sky Dolphins",
+      "subtitle": "A poem for Samantha",
+      "emoji": "🐬"
+    },
+    {
+      "type": "verse",
+      "scene": "ocean-start",
+      "stanza": 1,
+      "lines": [
+        "When the ocean yawns",
+        "and the waves lie flat,",
+        "a silver fin rises—",
+        "imagine that!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "dolphins-rising",
+      "stanza": 2,
+      "lines": [
+        "One dolphin leaps up",
+        "past the spray and the foam.",
+        "Two more follow after—",
+        "the sky is their home."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "dolphins-rising",
+      "stanza": 3,
+      "lines": [
+        "They arc through the clouds",
+        "leaving trails of light.",
+        "Their tails paint the sunset,",
+        "their fins hold the night."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "bayani-star",
+      "stanza": 4,
+      "lines": [
+        "The biggest one's Bayani,",
+        "he's silver and blue.",
+        "He dips down and whispers,",
+        "\"We've been waiting for you.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "bayani-star",
+      "stanza": 5,
+      "lines": [
+        "I hop on his back,",
+        "Samantha hops too.",
+        "He rockets through starlight—",
+        "what a wonderful view!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "flamingo-cloud",
+      "stanza": 6,
+      "lines": [
+        "We pass a flamingo",
+        "in polka-dot PJs,",
+        "a turtle in goggles",
+        "who surfs through the haze."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "flamingo-cloud",
+      "stanza": 7,
+      "lines": [
+        "A parrot shouts \"Bedtime!\"",
+        "from a neon-green star.",
+        "The fireflies giggle",
+        "in a tiny glass jar."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "rainbow-jellyfish",
+      "stanza": 8,
+      "lines": [
+        "We dive through a rainbow",
+        "that tastes like a dream,",
+        "past jellyfish lanterns",
+        "that shimmer and gleam."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "rainbow-jellyfish",
+      "stanza": 9,
+      "lines": [
+        "An elephant floats by",
+        "on a pillow of cloud,",
+        "he trumpets \"Goodnight!\"—",
+        "not too soft, not too loud."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "moonbeam-whale",
+      "stanza": 10,
+      "lines": [
+        "A whale made of moonbeams",
+        "opens wide his great jaws—",
+        "gold stars tumble out",
+        "and we catch them… because!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "animals-bedtime",
+      "stanza": 11,
+      "lines": [
+        "A tiger in a hammock",
+        "strums a lullaby string,",
+        "a bear starts to dance,",
+        "and the penguins all sing."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "planets-moon",
+      "stanza": 12,
+      "lines": [
+        "We loop past the planets—",
+        "say hi to the moon.",
+        "\"Come back!\" calls an owl",
+        "playing cello bassoon."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "dolphin-descent",
+      "stanza": 13,
+      "lines": [
+        "But Bayani slows down",
+        "and he glides toward the bay.",
+        "The stars start to whisper,",
+        "\"It's the end of the day.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "still-water",
+      "stanza": 14,
+      "lines": [
+        "The dolphins tuck in",
+        "where the still water gleams.",
+        "Their breath becomes bubbles,",
+        "their bubbles become dreams."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "promise",
+      "stanza": 15,
+      "lines": [
+        "So close your eyes, anak,",
+        "let the waves rock you tight.",
+        "I'll be the dolphin",
+        "who guards you tonight."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "still-water",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🐬"
+    }
+  ]
+}

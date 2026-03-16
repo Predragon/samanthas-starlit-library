@@ -1,0 +1,48 @@
+{
+  "id": "moon-garden",
+  "title": "The Moon Garden",
+  "emoji": "🌙",
+  "author": "Dady Fredy",
+  "theme": {
+    "sky": ["#101830", "#080d1c"],
+    "accent": "#c0c0ff",
+    "mood": "dreamy-soft"
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "The Moon Garden",
+      "subtitle": "A poem for Samantha",
+      "emoji": "🌙"
+    },
+    {
+      "type": "verse",
+      "scene": "start",
+      "lines": [
+        "Behind the moon",
+        "there grows a garden wide,",
+        "where silver flowers bloom",
+        "on the quiet side."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "lines": [
+        "The petals hold the wishes",
+        "of every child who dreams,",
+        "and moonlight pours like honey",
+        "in soft and golden streams."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "final",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🌙"
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+/* ── Reset & Base ──────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --sky-top: #0c1a3a;
+  --sky-bottom: #070d1f;
+  --accent: #f0c040;
+  --gold: #f0c040;
+  --silver: #c0c8e0;
+  --teal: #40c9c9;
+  --text: #e8e0d0;
+  --text-dim: rgba(232, 224, 208, 0.6);
+  --font-body: 'Cormorant Garamond', Georgia, serif;
+  --font-display: 'Caveat', cursive;
+  --page-transition: 0.4s ease;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+  background: var(--sky-bottom);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+/* ── Library (Bookshelf) ──────────────────────────── */
+.library {
+  min-height: 100%;
+  overflow-y: auto;
+  padding: 2rem 1rem 4rem;
+  background: linear-gradient(180deg, var(--sky-top), var(--sky-bottom));
+}
+
+.library-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.library-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--gold);
+  text-shadow: 0 0 20px rgba(240, 192, 64, 0.3);
+}
+
+.library-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+.bookshelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.book-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-card:active {
+  transform: scale(0.96);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.book-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.book-count {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-top: 0.35rem;
+}
+
+/* ── Reader ───────────────────────────────────── */
+.reader {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.reader-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  position: relative;
+  background: linear-gradient(180deg, var(--sky-top), var(--sky-bottom));
+  animation: pageFadeIn var(--page-transition) ease;
+}
+
+@keyframes pageFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ── Scene container ─────────────────────────── */
+.scene-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* ── Text layers ─────────────────────────────── */
+.verse-text {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 320px;
+}
+
+.verse-line {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--text);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* ── Cover page ─────────────────────────────── */
+.cover-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+.cover-emoji {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: gentlePulse 3s ease-in-out infinite;
+}
+
+@keyframes gentlePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+
+.cover-title {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  color: var(--accent);
+  text-shadow: 0 0 24px rgba(240, 192, 64, 0.3);
+  line-height: 1.2;
+}
+
+.cover-subtitle {
+  font-size: 1rem;
+  color: var(--text-dim);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.cover-tap {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-top: 2rem;
+  animation: breathe 2.5s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+/* ── Goodnight page ─────────────────────────── */
+.goodnight-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  animation: goodnightFade 1.2s ease;
+}
+
+@keyframes goodnightFade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.goodnight-text .verse-line {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--silver);
+}
+
+.goodnight-emoji {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  opacity: 0.7;
+}
+
+/* ── Refrain page ────────────────────────────── */
+.refrain-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+.refrain-text .verse-line {
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--accent);
+  opacity: 0.9;
+}
+
+/* ── Navigation ──────────────────────────────── */
+.nav-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  z-index: 20;
+}
+
+.nav-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-dot.active {
+  background: var(--accent);
+  transform: scale(1.3);
+  box-shadow: 0 0 8px var(--accent);
+}
+
+.nav-back {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 30;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.nav-back:active {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ── Tap zones ───────────────────────────────── */
+.tap-zone {
+  position: absolute;
+  top: 0;
+  bottom: 60px;
+  z-index: 15;
+  cursor: pointer;
+}
+
+.tap-zone-left { left: 0; width: 35%; }
+.tap-zone-right { right: 0; width: 65%; }
+
+/* ── Scene elements ──────────────────────────── */
+.stars-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle var(--dur, 3s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+  opacity: var(--opacity, 0.6);
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: var(--opacity, 0.6); transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.4); }
+}
+
+.moon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #ffeebb, #f0c040);
+  box-shadow: 0 0 40px rgba(240, 192, 64, 0.3), 0 0 80px rgba(240, 192, 64, 0.1);
+  top: 8%;
+  right: 12%;
+}
+
+.moon-crescent {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--sky-top);
+  top: -5px;
+  left: 12px;
+}
+
+/* ── Firefly ──────────────────────────────────── */
+.firefly {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #f0c040;
+  box-shadow: 0 0 6px #f0c040, 0 0 12px rgba(240, 192, 64, 0.5);
+  animation: fireflyFloat var(--dur, 6s) ease-in-out infinite, twinkle var(--twinkle, 2s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+@keyframes fireflyFloat {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(var(--dx, 20px), var(--dy, -15px)); }
+  50% { transform: translate(var(--dx2, -10px), var(--dy2, -30px)); }
+  75% { transform: translate(var(--dx3, 15px), var(--dy3, -10px)); }
+}
+
+/* ── Wave animations ─────────────────────────── */
+.wave-group {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.wave-line {
+  fill: none;
+  stroke-width: 1.5;
+  opacity: var(--wave-opacity, 0.15);
+  animation: waveShift var(--wave-dur, 4s) ease-in-out infinite;
+  animation-delay: var(--wave-delay, 0s);
+}
+
+@keyframes waveShift {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(var(--wave-dx, -20px)); }
+}
+
+/* ── Dolphin SVG ──────────────────────────────── */
+.dolphin-svg {
+  transition: transform 0.3s ease;
+}
+
+/* ── Refrain scene (waves + ghost dolphins) ─── */
+.refrain-scene {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+}
+
+.refrain-wave {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 120%;
+}
+
+/* ── Misc animations ─────────────────────────── */
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(1); opacity: var(--start-opacity, 0.6); }
+  100% { transform: translateY(-100px) scale(0.5); opacity: 0; }
+}
+
+@keyframes gentleBob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes drift {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(var(--drift-x, 15px)); }
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: var(--glow-min, 0.3); }
+  50% { opacity: var(--glow-max, 0.7); }
+}
+
+@keyframes descendGlide {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(30px, 60px) rotate(5deg); }
+}
+
+/* ── Jellyfish ────────────────────────────────── */
+.jellyfish-glow {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+/* ── Rainbow ──────────────────────────────────── */
+.rainbow-arc {
+  opacity: 0.25;
+}
+
+/* ── Responsive ──────────────────────────────── */
+@media (min-width: 420px) {
+  .verse-line { font-size: 1.4rem; }
+  .cover-title { font-size: 2.6rem; }
+  .bookshelf { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 600px) {
+  .bookshelf { grid-template-columns: repeat(3, 1fr); }
+  .verse-text { max-width: 400px; }
+}
+
+/* ── Safe area insets ────────────────────────── */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .nav-back { top: calc(1rem + env(safe-area-inset-top)); }
+  .nav-bar { padding-bottom: calc(1rem + env(safe-area-inset-bottom)); }
+  .library { padding-top: calc(2rem + env(safe-area-inset-top)); }
+}

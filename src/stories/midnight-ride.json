@@ -1,0 +1,128 @@
+{
+  "id": "midnight-ride",
+  "title": "The Midnight Ride",
+  "emoji": "🚲",
+  "author": "Dady Fredy",
+  "theme": {
+    "sky": ["#0c1a3a", "#070d1f"],
+    "accent": "#f0c040",
+    "mood": "adventure-wonder"
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "The Midnight Ride",
+      "subtitle": "A poem for Samantha",
+      "emoji": "🚲"
+    },
+    {
+      "type": "verse",
+      "scene": "start",
+      "lines": [
+        "When the moon climbs high",
+        "and the stars say \"Go!\"",
+        "we hop on our bikes",
+        "through the silver glow."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "bikes",
+      "lines": [
+        "My wheels hum a song,",
+        "yours sing it right back—",
+        "two midnight riders",
+        "on a winding track."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "firefly",
+      "lines": [
+        "Fireflies blink hello",
+        "from the tall, dark trees.",
+        "Their tiny gold lanterns",
+        "float on the breeze."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "rooftops",
+      "lines": [
+        "We pedal past rooftops",
+        "where chimneys sleep tight,",
+        "past gardens of shadows",
+        "and porches of light."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "comets",
+      "lines": [
+        "A comet streaks by—",
+        "did you see it flash?",
+        "A silver-tailed wonder,",
+        "a stardust splash!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "owls",
+      "lines": [
+        "The owls on the fence posts",
+        "nod as we pass.",
+        "\"Goodnight,\" hoots the biggest,",
+        "\"ride safe through the grass.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "aurora",
+      "lines": [
+        "The sky turns to colors—",
+        "green, purple, and blue.",
+        "An aurora of magic",
+        "painted just for you."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "descent",
+      "lines": [
+        "Now the hill slopes down",
+        "and we coast, slow and sweet.",
+        "The wind hums a lullaby,",
+        "the road meets our feet."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "tree",
+      "lines": [
+        "We park by the old oak",
+        "where the crickets all play,",
+        "and we whisper our wishes",
+        "to the Milky Way."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "lines": [
+        "Then I carry you home",
+        "on the handlebars' throne.",
+        "Two riders, one heartbeat—",
+        "never riding alone."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "final",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🚲"
+    }
+  ]
+}

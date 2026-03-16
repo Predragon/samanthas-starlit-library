@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="76.8" fill="#0c1a3a"/>
+  <circle cx="358.4" cy="112.64" r="51.2" fill="#f0c040" opacity="0.8"/>
+  <circle cx="373.76" cy="102.4" r="46.08" fill="#0c1a3a"/>
+  <circle cx="128" cy="76.8" r="10.24" fill="#fff" opacity="0.6"/>
+  <circle cx="230.4" cy="51.2" r="7.68" fill="#fff" opacity="0.5"/>
+  <circle cx="76.8" cy="153.6" r="6.144" fill="#fff" opacity="0.4"/>
+  <text x="256" y="348.16" text-anchor="middle" font-size="179.2">📚</text>
+</svg>

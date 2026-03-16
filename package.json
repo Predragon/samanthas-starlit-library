@@ -1,0 +1,22 @@
+{
+  "name": "samanthas-starlit-library",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A bedtime storybook PWA for Samantha — illustrated poems read by Dady Fredy",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "new-story": "node scripts/new-story.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}

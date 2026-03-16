@@ -1,0 +1,48 @@
+{
+  "id": "counting-stars",
+  "title": "Counting Stars with Samantha",
+  "emoji": "⭐",
+  "author": "Dady Fredy",
+  "theme": {
+    "sky": ["#0f1b3d", "#080e24"],
+    "accent": "#ffd700",
+    "mood": "gentle-wonder"
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Counting Stars with Samantha",
+      "subtitle": "A poem for Samantha",
+      "emoji": "⭐"
+    },
+    {
+      "type": "verse",
+      "scene": "start",
+      "lines": [
+        "One star for the morning,",
+        "two stars for the night.",
+        "Three stars for my Samantha",
+        "shining extra bright."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "lines": [
+        "Four stars in the river,",
+        "five stars in the lake.",
+        "Six stars on your pillow",
+        "for when you awake."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "final",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "⭐"
+    }
+  ]
+}
