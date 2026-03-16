@@ -5,8 +5,9 @@ import moonGarden from './moon-garden.json';
 import flightToSerbia from './flight-to-serbia.json';
 import starlitDream from './starlit-dream.json';
 import rainbowUnicorn from './rainbow-unicorn.json';
+import shipOfStars from './ship-of-stars.json';
 
-const stories = [midnightRide, skyDolphins, flightToSerbia, starlitDream, rainbowUnicorn, countingStars, moonGarden];
+const stories = [midnightRide, skyDolphins, flightToSerbia, starlitDream, rainbowUnicorn, shipOfStars, countingStars, moonGarden];
 
 export default stories;
 

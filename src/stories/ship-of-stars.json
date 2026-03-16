@@ -1,0 +1,203 @@
+{
+  "id": "ship-of-stars",
+  "title": "Samantha and the Ship of Stars",
+  "emoji": "🚀",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2026-03-17",
+  "dedication": "For Samantha — small in size, but rare.",
+  "closingEmoji": "🚀💤",
+  "theme": {
+    "sky": ["#080818", "#040410"],
+    "accent": "#c0a0ff",
+    "mood": "cosmic-wonder"
+  },
+  "refrain": {
+    "lines": ["Star after star,", "sun after sun…", "Love is the light", "that outshines every one."],
+    "closing": ["Star after star,", "sun after sun…", "Love is the light", "that outshines every one."],
+    "afterStanzas": [3, 7, 11]
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Samantha and the Ship of Stars",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "🚀",
+      "dedication": "For Samantha — small in size, but rare."
+    },
+    {
+      "type": "verse",
+      "scene": "serbia-night",
+      "stanza": 1,
+      "lines": [
+        "One quiet night in Serbia's sky,",
+        "Samantha watched the stars drift by.",
+        "\"Dady Fredy,\" she softly said,",
+        "\"Where do the farthest star paths lead?\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "serbia-night",
+      "stanza": 2,
+      "lines": [
+        "He smiled and whispered, \"Close your eyes—",
+        "Tonight we sail beyond the skies.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "svetlost-ship",
+      "stanza": 3,
+      "lines": [
+        "A silver ship called Svetlost came,",
+        "Which means 'the Light' — a Serbian name.",
+        "She hummed a sound like velvet wings,",
+        "No roar of engines, just soft rings.",
+        "Her dashboard glowed with gentle gold:",
+        "\"Climb aboard — the stars are cold.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "solar-system",
+      "stanza": 4,
+      "lines": [
+        "Samantha first, then Dady too —",
+        "The door slid shut and off they flew.",
+        "Past Earth so blue, past silver Moon,",
+        "Past Mars who whistled a rusty tune."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "saturn-jupiter",
+      "stanza": 5,
+      "lines": [
+        "They waved at Saturn's icy rings,",
+        "Where tiny moons rode diamond swings.",
+        "Then Jupiter — so wide and grand —",
+        "Blew storms like music from a band."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "milky-way",
+      "stanza": 6,
+      "lines": [
+        "The planets faded, one by one,",
+        "The Milky Way began to run",
+        "Like spilled srebrna — Serbian silver —",
+        "A stream of light that made them shiver."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "galaxies",
+      "stanza": 7,
+      "lines": [
+        "Then out beyond — a shining sea!",
+        "More galaxies than eyes could see.",
+        "Some spun like pinwheels, arms spread wide,",
+        "Some glowed like lanterns, deep inside."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "star-nursery",
+      "stanza": 8,
+      "lines": [
+        "They drifted through a cloud of dust",
+        "Where baby stars were born — a gust",
+        "Of pink and gold lit up the dark,",
+        "Each newborn sun a tiny spark."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "galaxies",
+      "stanza": 9,
+      "lines": [
+        "\"Each galaxy,\" Dady said low,",
+        "\"Is a city where billions of stars grow.",
+        "Perhaps somewhere a girl like you",
+        "Is watching from a window, too.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "deep-space",
+      "stanza": 10,
+      "lines": [
+        "\"Dady Fredy,\" she whispered tight,",
+        "\"Are we small in all this light?\"",
+        "He held her close and said with care,",
+        "\"Small in size — but, anak, rare."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "deep-space",
+      "stanza": 11,
+      "lines": [
+        "The universe is wild and wide,",
+        "But love? Love travels right inside.",
+        "No distance, darkness, time, or space",
+        "Can keep it from its resting place.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "homeward",
+      "stanza": 12,
+      "lines": [
+        "Then Svetlost softly turned for home,",
+        "Back through the quiet stars they roamed.",
+        "The Milky Way returned in view,",
+        "Their little solar system, too."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "solar-system",
+      "stanza": 13,
+      "lines": [
+        "Past Jupiter, past Saturn's rings,",
+        "Past Mars still whistling rusty things.",
+        "Past Moon, through clouds, through Serbia's air,",
+        "And down to bed — so calm, so fair."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "promise",
+      "stanza": 14,
+      "lines": [
+        "And Dady Fredy tucked her tight,",
+        "And whispered the words he says each night:",
+        "\"Wherever you wander, anak, however far—",
+        "My love will find you past every star.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 15,
+      "lines": [
+        "So close your eyes now, my Samantha, my dear,",
+        "Svetlost is resting — the stars are all here.",
+        "The galaxies hum and the universe bends—",
+        "And Dady Fredy's love never, ever ends."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "deep-space",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🚀💤"
+    }
+  ]
+}
