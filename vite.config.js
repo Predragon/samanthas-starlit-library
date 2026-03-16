@@ -10,7 +10,7 @@ export default defineConfig({
       srcDir: 'src',
       filename: 'sw.js',
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'icon-192.svg', 'icon-512.svg'],
+      includeAssets: ['favicon.svg', 'icon-192.png', 'icon-512.png', 'icon-192.svg', 'icon-512.svg'],
       manifest: {
         name: "Samantha's Starlit Library",
         short_name: 'Starlit Library',
@@ -21,13 +21,13 @@ export default defineConfig({
         orientation: 'portrait',
         start_url: '/',
         icons: [
-          { src: 'icon-192.svg', sizes: '192x192', type: 'image/svg+xml' },
-          { src: 'icon-512.svg', sizes: '512x512', type: 'image/svg+xml' },
-          { src: 'icon-512.svg', sizes: '512x512', type: 'image/svg+xml', purpose: 'maskable' }
+          { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' }
         ]
       },
       injectManifest: {
-        globPatterns: ['**/*.{js,css,html,json,svg,woff2}'],
+        globPatterns: ['**/*.{js,css,html,json,svg,png,woff2}'],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024
       }
     })

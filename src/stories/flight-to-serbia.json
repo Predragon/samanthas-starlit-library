@@ -1,0 +1,44 @@
+{
+  "id": "flight-to-serbia",
+  "title": "Samantha's Flight to Serbia",
+  "emoji": "✈️",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2025-07-01",
+  "dedication": "For Samantha — born in Angeles City, roots in Belgrade.",
+  "closingEmoji": "✈️🇷🇸💤",
+  "theme": {
+    "sky": ["#162040", "#0a0e22"],
+    "accent": "#ff9f43",
+    "mood": "adventure"
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Samantha's Flight to Serbia",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "✈️",
+      "dedication": "For Samantha — born in Angeles City, roots in Belgrade."
+    },
+    {
+      "type": "verse",
+      "scene": "flight",
+      "stanza": 1,
+      "lines": [
+        "Pack your bags, Samantha — we're leaving tonight!",
+        "On a paper airplane bathed in moonlight.",
+        "From Angeles City where you were born,",
+        "To Belgrade, Serbia — by the break of morn."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "final",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "✈️🇷🇸💤"
+    }
+  ]
+}

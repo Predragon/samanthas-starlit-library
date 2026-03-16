@@ -1,0 +1,44 @@
+{
+  "id": "starlit-dream",
+  "title": "Samantha's Starlit Dream",
+  "emoji": "⭐",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2025-05-15",
+  "dedication": "For Samantha — dream big, anak.",
+  "closingEmoji": "⭐💤",
+  "theme": {
+    "sky": ["#1a1040", "#0b0820"],
+    "accent": "#c8a8ff",
+    "mood": "wonder"
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Samantha's Starlit Dream",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "⭐",
+      "dedication": "For Samantha — dream big, anak."
+    },
+    {
+      "type": "verse",
+      "scene": "clouds",
+      "stanza": 1,
+      "lines": [
+        "When the moon climbs high and the world grows still,",
+        "And the stars line up on the windowsill,",
+        "Samantha closes her sleepy eyes—",
+        "And floats away through the purple skies."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "final",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "⭐💤"
+    }
+  ]
+}
