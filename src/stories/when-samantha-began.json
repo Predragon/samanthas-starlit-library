@@ -1,0 +1,186 @@
+{
+  "id": "when-samantha-began",
+  "title": "The Story of When Samantha Began",
+  "emoji": "💗",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2026-03-17",
+  "dedication": "For Samantha — we loved you before we knew you.",
+  "closingEmoji": "💗💤",
+  "theme": {
+    "sky": ["#1a0a20", "#100818"],
+    "accent": "#ff80a0",
+    "mood": "tender-love"
+  },
+  "refrain": {
+    "lines": ["Tap, tap, tap…", "small heart, brand new.", "Long before the world began,", "we already loved you."],
+    "closing": ["Tap, tap, tap…", "small heart, still true.", "Before you opened your eyes…", "we already loved you."],
+    "afterStanzas": [3, 6, 9]
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "The Story of When Samantha Began",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "💗",
+      "dedication": "For Samantha — we loved you before we knew you."
+    },
+    {
+      "type": "verse",
+      "scene": "bedtime-question",
+      "stanza": 1,
+      "lines": [
+        "One quiet night, tucked into bed,",
+        "Samantha looked at Dady and said,",
+        "\"Dady Fredy… tell me, please—",
+        "Where was I before these trees?\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "story-begins",
+      "stanza": 2,
+      "lines": [
+        "He smiled and sat beside the light,",
+        "And softly started the story of the night:",
+        "\"Before your laugh, before your name,",
+        "Before your tiny footsteps came—\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "tiny-beginnings",
+      "stanza": 3,
+      "lines": [
+        "\"You lived with Mama, warm and small,",
+        "No bigger than a raindrop's fall.",
+        "Smaller than a plum tree seed,",
+        "Smaller than a word, a wish, a bead.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "mamas-heart",
+      "stanza": 4,
+      "lines": [
+        "\"Mama's heart became a room,",
+        "A place where you could safely bloom.",
+        "And every day you grew a bit—",
+        "Tiny hands that curled to fists,",
+        "Tiny feet like little twists,",
+        "A little wiggle, soft and quick.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "growing",
+      "stanza": 5,
+      "lines": [
+        "\"She'd feel you stretch, she'd feel you turn,",
+        "Each new day something new you'd learn.",
+        "And Mama laughed and rubbed her belly,",
+        "Feeling you — all soft and jelly.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "dady-whispers",
+      "stanza": 6,
+      "lines": [
+        "\"And Dady Fredy? He talked to you, too—",
+        "Even though you couldn't see,",
+        "He'd lean in close and whisper free:",
+        "'We can't wait to meet you someday,",
+        "We already love you in every way.'\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "heartbeat",
+      "stanza": 7,
+      "lines": [
+        "\"Your heart began to beat so small—",
+        "Tap… tap… tap — the sweetest sound of all.",
+        "Your ears learned voices, warm and near:",
+        "Mama's voice… and Dady, dear.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "arrival-day",
+      "stanza": 8,
+      "lines": [
+        "Then one special, magical day,",
+        "You were finally ready to come and play.",
+        "Mama was brave, the doctors were kind,",
+        "And Dady Fredy paced with a racing mind—"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "first-cry",
+      "stanza": 9,
+      "lines": [
+        "Until a small cry filled the air,",
+        "And there you were — beyond compare.",
+        "So tiny, new, with eyes so blue,",
+        "Ten little fingers — all brand new."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "first-hold",
+      "stanza": 10,
+      "lines": [
+        "Dady Fredy held you near—",
+        "Too full of joy to shed a tear.",
+        "And Mama kissed your little head",
+        "And whispered, \"Welcome, love,\" she said."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "bright-world",
+      "stanza": 11,
+      "lines": [
+        "And from that moment — warm and true —",
+        "The world grew brighter because of you.",
+        "The stars leaned in, the moon stood still,",
+        "And everything whispered: Samantha will."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "bedtime-question",
+      "stanza": 12,
+      "lines": [
+        "Samantha murmured, sleepy and deep,",
+        "Already drifting close to sleep:",
+        "\"I was loved there… before I knew?\"",
+        "\"Yes, anak… long, long before you grew.",
+        "Mama carried you with love and care,",
+        "And Dady Fredy? I was always there.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "bright-world",
+      "stanza": 13,
+      "lines": [
+        "So close your eyes now, my Samantha, my dear,",
+        "The story of you is resting right here.",
+        "Before your first breath, before your first cry—",
+        "You were already the light in your Mama's and Dady's eye."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "heartbeat",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "💗💤"
+    }
+  ]
+}
