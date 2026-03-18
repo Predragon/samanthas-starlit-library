@@ -29,6 +29,12 @@ import {
 } from './WhenSamanthaBeganScenes';
 
 import {
+  EveningStartScene, BicycleSeatScene, AngelesStreetsScene, ParadeGroundsScene,
+  AirplaneWatchScene, StarbucksStopScene, SevenElevenScene, RideHomeScene,
+  BeltSafeScene, LastLaneScene, MammyHomeScene,
+} from './BicycleNightsScenes';
+
+import {
   CloudsScene, FlightScene, OceanScene, DefaultScene,
 } from './GenericScenes';
 
@@ -94,6 +100,19 @@ const SCENES = {
   'first-cry': FirstCryScene,
   'first-hold': FirstHoldScene,
   'bright-world': BrightWorldScene,
+
+  // Bicycle Nights
+  'evening-start': EveningStartScene,
+  'bicycle-seat': BicycleSeatScene,
+  'angeles-streets': AngelesStreetsScene,
+  'parade-grounds': ParadeGroundsScene,
+  'airplane-watch': AirplaneWatchScene,
+  'starbucks-stop': StarbucksStopScene,
+  'seven-eleven': SevenElevenScene,
+  'ride-home': RideHomeScene,
+  'belt-safe': BeltSafeScene,
+  'last-lane': LastLaneScene,
+  'mammy-home': MammyHomeScene,
 
   // Generic fallbacks
   clouds: CloudsScene,

@@ -1,0 +1,187 @@
+{
+  "id": "bicycle-nights",
+  "title": "Samantha and the Bicycle Nights",
+  "emoji": "🚲",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2026-03-19",
+  "dedication": "For Samantha — my co-pilot, my passenger, my heart.",
+  "closingEmoji": "🚲💤",
+  "theme": {
+    "sky": ["#1a1230", "#0e0a1c"],
+    "accent": "#f5d76e",
+    "mood": "warm-real"
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Samantha and the Bicycle Nights",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "🚲",
+      "dedication": "For Samantha — my co-pilot, my passenger, my heart."
+    },
+    {
+      "type": "verse",
+      "scene": "evening-start",
+      "stanza": 1,
+      "lines": [
+        "The sun dipped low past the mango trees,",
+        "And the evening hummed with a warm, soft breeze.",
+        "Dady Fredy rolled out the bicycle bright",
+        "And said, \"Hop on, Samantha — let's ride tonight.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "bicycle-seat",
+      "stanza": 2,
+      "lines": [
+        "She climbed in the back in her little blue seat,",
+        "Her sandals dangling above the street.",
+        "She wrapped her arms round Dady's waist",
+        "And off they went — no need to haste."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "angeles-streets",
+      "stanza": 3,
+      "lines": [
+        "The pedals turned and the tires sang low,",
+        "Past tricycles humming and carinderias' glow.",
+        "The streetlamps blinked on, one by one,",
+        "As Angeles City cooled down from the sun."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "parade-grounds",
+      "stanza": 4,
+      "lines": [
+        "They rode through the gate to the Parade Grounds wide,",
+        "Where the old Clark runway stretched far on each side.",
+        "The grass smelled sweet and the air was still,",
+        "And the sky turned purple past the far-off hill."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "airplane-watch",
+      "stanza": 5,
+      "lines": [
+        "\"Look, Dady! Airplane!\" Samantha would shout,",
+        "As the big lights blinked and the engines roared out.",
+        "They watched it climb through the tangerine sky",
+        "And waved it goodbye as it rumbled on by."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "airplane-watch",
+      "stanza": 6,
+      "lines": [
+        "Another one came with its landing lights on,",
+        "So low you could almost reach up and hold on.",
+        "It thundered above them — then quiet again.",
+        "Just crickets, and Dady, and Samantha. Amen."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "starbucks-stop",
+      "stanza": 7,
+      "lines": [
+        "They pedaled to Starbucks — all glowy and warm,",
+        "Where Dady got coffee, his usual form.",
+        "And Samantha got… \"Ice cream, please! The pink one!\"",
+        "And the barista smiled: \"Coming right up, little sun.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "seven-eleven",
+      "stanza": 8,
+      "lines": [
+        "Then on to 7-Eleven — the bright, humming store —",
+        "For donuts in boxes (they picked out three… four).",
+        "\"This chocolate one's Mammy's,\" Samantha declared,",
+        "\"And this sprinkle one too — because Mammy has shared.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "ride-home",
+      "stanza": 9,
+      "lines": [
+        "The box sat behind them, tied tight to the rack,",
+        "And Samantha leaned warm against Dady's broad back.",
+        "The streets had grown quiet, the city half-dreaming,",
+        "The moon had come out — soft and silver and gleaming."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "belt-safe",
+      "stanza": 10,
+      "lines": [
+        "Her eyes started closing, her arms going slack —",
+        "So Dady pulled over beside the dark track.",
+        "He took off his belt and he looped it around",
+        "Both Dady and Samantha — together, safe, bound."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "belt-safe",
+      "stanza": 11,
+      "lines": [
+        "\"There,\" Dady whispered, \"now lean on me, love.",
+        "The moon's right beside us, the stars up above.",
+        "I'll pedal us home through the quiet night air —",
+        "You sleep, little anak. Dady Fredy is here.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "last-lane",
+      "stanza": 12,
+      "lines": [
+        "The bicycle hummed down the last empty lane,",
+        "Past sleeping sari-saris and one stray that came",
+        "To walk alongside them a block, maybe two —",
+        "As if even the world wanted to take care of you."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "mammy-home",
+      "stanza": 13,
+      "lines": [
+        "And Mammy was waiting with the porch light still on.",
+        "She opened the door and she whispered, \"My dawn.\"",
+        "She took the warm donuts, she kissed Samantha's head,",
+        "And together they carried her softly to bed."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "final",
+      "stanza": 14,
+      "lines": [
+        "So close your bright eyes now, my Samantha, my dear,",
+        "The bicycle's resting, the donuts are here.",
+        "The airplanes are sleeping on runways of dreams —",
+        "And Dady Fredy loves you more than it seems."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "mammy-home",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🚲💤"
+    }
+  ]
+}
