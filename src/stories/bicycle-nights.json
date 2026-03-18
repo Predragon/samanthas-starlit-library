@@ -8,9 +8,14 @@
   "dedication": "For Samantha — my co-pilot, my passenger, my heart.",
   "closingEmoji": "🚲💤",
   "theme": {
-    "sky": ["#1a1230", "#0e0a1c"],
-    "accent": "#f5d76e",
+    "sky": ["#1a1530", "#0a0812"],
+    "accent": "#f5a623",
     "mood": "warm-real"
+  },
+  "refrain": {
+    "lines": ["Pedal, pedal, through the night…", "Dady's here — hold on tight."],
+    "closing": ["Pedal, pedal, soft and slow…", "Dady brought you home, you know."],
+    "afterStanzas": [3, 7, 11]
   },
   "pages": [
     {
@@ -22,7 +27,7 @@
     },
     {
       "type": "verse",
-      "scene": "evening-start",
+      "scene": "sunset-start",
       "stanza": 1,
       "lines": [
         "The sun dipped low past the mango trees,",
@@ -39,16 +44,16 @@
         "She climbed in the back in her little blue seat,",
         "Her sandals dangling above the street.",
         "She wrapped her arms round Dady's waist",
-        "And off they went — no need to haste."
+        "And off they went — no need for haste."
       ]
     },
     {
       "type": "verse",
-      "scene": "angeles-streets",
+      "scene": "angeles-evening",
       "stanza": 3,
       "lines": [
         "The pedals turned and the tires sang low,",
-        "Past tricycles humming and carinderias' glow.",
+        "Past tricycles humming and carinderias aglow.",
         "The streetlamps blinked on, one by one,",
         "As Angeles City cooled down from the sun."
       ]
@@ -66,7 +71,7 @@
     },
     {
       "type": "verse",
-      "scene": "airplane-watch",
+      "scene": "airplane-takeoff",
       "stanza": 5,
       "lines": [
         "\"Look, Dady! Airplane!\" Samantha would shout,",
@@ -77,7 +82,7 @@
     },
     {
       "type": "verse",
-      "scene": "airplane-watch",
+      "scene": "airplane-landing",
       "stanza": 6,
       "lines": [
         "Another one came with its landing lights on,",
@@ -88,12 +93,12 @@
     },
     {
       "type": "verse",
-      "scene": "starbucks-stop",
+      "scene": "starbucks",
       "stanza": 7,
       "lines": [
         "They pedaled to Starbucks — all glowy and warm,",
         "Where Dady got coffee, his usual form.",
-        "And Samantha got… \"Ice cream, please! The pink one!\"",
+        "And Samantha said, \"Ice cream, please! The pink one!\"",
         "And the barista smiled: \"Coming right up, little sun.\""
       ]
     },
@@ -105,12 +110,14 @@
         "Then on to 7-Eleven — the bright, humming store —",
         "For donuts in boxes (they picked out three… four).",
         "\"This chocolate one's Mammy's,\" Samantha declared,",
-        "\"And this sprinkle one too — because Mammy has shared.\""
+        "\"And this sprinkle one too — because Mammy has shared",
+        "Every donut she's ever been given with me.\"",
+        "Dady smiled. That was perfectly, completely, true."
       ]
     },
     {
       "type": "verse",
-      "scene": "ride-home",
+      "scene": "moonlit-ride",
       "stanza": 9,
       "lines": [
         "The box sat behind them, tied tight to the rack,",
@@ -121,7 +128,7 @@
     },
     {
       "type": "verse",
-      "scene": "belt-safe",
+      "scene": "belt-safety",
       "stanza": 10,
       "lines": [
         "Her eyes started closing, her arms going slack —",
@@ -132,7 +139,7 @@
     },
     {
       "type": "verse",
-      "scene": "belt-safe",
+      "scene": "whisper-ride",
       "stanza": 11,
       "lines": [
         "\"There,\" Dady whispered, \"now lean on me, love.",
@@ -154,29 +161,71 @@
     },
     {
       "type": "verse",
-      "scene": "mammy-home",
+      "scene": "sip-and-sing",
       "stanza": 13,
       "lines": [
-        "And Mammy was waiting with the porch light still on.",
-        "She opened the door and she whispered, \"My dawn.\"",
-        "She took the warm donuts, she kissed Samantha's head,",
-        "And together they carried her softly to bed."
+        "They turned the last corner — and there it still glowed:",
+        "Sip & Sing, their home at the end of the road.",
+        "The karaoke lights were dimming to dark,",
+        "But one voice still sang like a sleepy last spark."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "mammy-waiting",
+      "stanza": 14,
+      "lines": [
+        "And Mammy was sweeping the last of the floor,",
+        "She'd locked up the register, counted the store.",
+        "She saw them roll in — the bicycle, the belt,",
+        "The donut box, the daughter — and everything melted."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "mammy-kiss",
+      "stanza": 15,
+      "lines": [
+        "She set down the broom and she whispered, \"My dawn.\"",
+        "She took the warm donuts — the chocolate one gone",
+        "Already in spirit to Mammy's own plate.",
+        "She kissed Samantha's hair: \"Worth the wait.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "carried-to-bed",
+      "stanza": 16,
+      "lines": [
+        "They carried her up through the quiet back door,",
+        "Past microphones sleeping and the still, empty floor.",
+        "Dady laid her down soft, Mammy tucked the sheet tight,",
+        "And both of them whispered the words of the night:"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "promise",
+      "stanza": 17,
+      "lines": [
+        "\"Wherever you ride, anak, wherever we roam —",
+        "Sip & Sing is singing… and you're already home.\""
       ]
     },
     {
       "type": "verse",
       "scene": "final",
-      "stanza": 14,
+      "stanza": 18,
       "lines": [
         "So close your bright eyes now, my Samantha, my dear,",
         "The bicycle's resting, the donuts are here.",
         "The airplanes are sleeping on runways of dreams —",
-        "And Dady Fredy loves you more than it seems."
+        "And Dady Fredy loves you… all the way home."
       ]
     },
     {
       "type": "goodnight",
-      "scene": "mammy-home",
+      "scene": "mammy-kiss",
       "lines": [
         "Goodnight, Samantha.",
         "Goodnight, anak."

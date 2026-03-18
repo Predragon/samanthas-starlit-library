@@ -29,9 +29,10 @@ import {
 } from './WhenSamanthaBeganScenes';
 
 import {
-  EveningStartScene, BicycleSeatScene, AngelesStreetsScene, ParadeGroundsScene,
-  AirplaneWatchScene, StarbucksStopScene, SevenElevenScene, RideHomeScene,
-  BeltSafeScene, LastLaneScene, MammyHomeScene,
+  SunsetStartScene, BicycleSeatScene, AngelesEveningScene, ParadeGroundsScene,
+  AirplaneTakeoffScene, AirplaneLandingScene, StarbucksScene, SevenElevenScene,
+  MoonlitRideScene, BeltSafetyScene, WhisperRideScene, LastLaneScene,
+  SipAndSingScene, MammyWaitingScene, MammyKissScene, CarriedToBedScene,
 } from './BicycleNightsScenes';
 
 import {
@@ -102,17 +103,22 @@ const SCENES = {
   'bright-world': BrightWorldScene,
 
   // Bicycle Nights
-  'evening-start': EveningStartScene,
+  'sunset-start': SunsetStartScene,
   'bicycle-seat': BicycleSeatScene,
-  'angeles-streets': AngelesStreetsScene,
+  'angeles-evening': AngelesEveningScene,
   'parade-grounds': ParadeGroundsScene,
-  'airplane-watch': AirplaneWatchScene,
-  'starbucks-stop': StarbucksStopScene,
+  'airplane-takeoff': AirplaneTakeoffScene,
+  'airplane-landing': AirplaneLandingScene,
+  'starbucks': StarbucksScene,
   'seven-eleven': SevenElevenScene,
-  'ride-home': RideHomeScene,
-  'belt-safe': BeltSafeScene,
+  'moonlit-ride': MoonlitRideScene,
+  'belt-safety': BeltSafetyScene,
+  'whisper-ride': WhisperRideScene,
   'last-lane': LastLaneScene,
-  'mammy-home': MammyHomeScene,
+  'sip-and-sing': SipAndSingScene,
+  'mammy-waiting': MammyWaitingScene,
+  'mammy-kiss': MammyKissScene,
+  'carried-to-bed': CarriedToBedScene,
 
   // Generic fallbacks
   clouds: CloudsScene,
