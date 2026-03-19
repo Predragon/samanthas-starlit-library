@@ -36,6 +36,8 @@ function buildPages(story) {
 
 export default function Reader({ story }) {
   const [pageIndex, setPageIndex] = useState(0);
+  const [turnDir, setTurnDir] = useState(0); // -1 = back, 1 = forward, 0 = initial
+  const [isTransitioning, setIsTransitioning] = useState(false);
   const touchRef = useRef(null);
   const pages = React.useMemo(() => buildPages(story), [story]);
   const total = pages.length;
@@ -47,8 +49,23 @@ export default function Reader({ story }) {
   const accent = theme.accent || '#f0c040';
 
   const go = useCallback((dir) => {
-    setPageIndex(i => Math.max(0, Math.min(total - 1, i + dir)));
+    setPageIndex(prev => {
+      const next = Math.max(0, Math.min(total - 1, prev + dir));
+      if (next !== prev) {
+        setTurnDir(dir);
+        setIsTransitioning(true);
+      }
+      return next;
+    });
   }, [total]);
+
+  // Clear transition flag after animation completes
+  useEffect(() => {
+    if (isTransitioning) {
+      const t = setTimeout(() => setIsTransitioning(false), 500);
+      return () => clearTimeout(t);
+    }
+  }, [isTransitioning, pageIndex]);
 
   const goBack = useCallback(() => {
     window.location.hash = '';
@@ -86,9 +103,11 @@ export default function Reader({ story }) {
     background: `linear-gradient(180deg, ${skyTop}, ${skyBottom})`,
   };
 
+  const turnClass = turnDir > 0 ? 'page-turn-forward' : turnDir < 0 ? 'page-turn-back' : 'page-turn-initial';
+
   return (
     <div className="reader" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
-      <div className="reader-page" key={pageIndex} style={pageStyle}>
+      <div className={`reader-page ${turnClass}`} key={pageIndex} style={pageStyle}>
         <button className="nav-back" onClick={goBack} aria-label="Back to library">←</button>
 
         {current.type === 'cover' && <Cover page={current} accent={accent} />}
@@ -107,7 +126,11 @@ export default function Reader({ story }) {
         <div className="tap-zone tap-zone-right" onClick={() => go(1)} />
       </div>
 
-      <Navigation total={total} current={pageIndex} accent={accent} onGo={setPageIndex} />
+      <Navigation total={total} current={pageIndex} accent={accent} onGo={(i) => {
+        setTurnDir(i > pageIndex ? 1 : -1);
+        setIsTransitioning(true);
+        setPageIndex(i);
+      }} />
     </div>
   );
 }

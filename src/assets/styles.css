@@ -107,6 +107,7 @@ html, body, #root {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  perspective: 1200px;
 }
 
 .reader-page {
@@ -118,12 +119,60 @@ html, body, #root {
   padding: 2rem 1.5rem;
   position: relative;
   background: linear-gradient(180deg, var(--sky-top), var(--sky-bottom));
-  animation: pageFadeIn var(--page-transition) ease;
+  transform-origin: center center;
+  will-change: transform, opacity;
+}
+
+/* ── Page turn animations ────────────────────── */
+.page-turn-initial {
+  animation: pageFadeIn 0.4s ease;
+}
+
+.page-turn-forward {
+  animation: pageTurnForward 0.5s ease;
+}
+
+.page-turn-back {
+  animation: pageTurnBack 0.5s ease;
 }
 
 @keyframes pageFadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@keyframes pageTurnForward {
+  0% {
+    transform: translateX(40%) rotateY(-25deg) scale(0.92);
+    opacity: 0;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3);
+  }
+  60% {
+    transform: translateX(0) rotateY(-3deg) scale(0.99);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0) rotateY(0) scale(1);
+    opacity: 1;
+    box-shadow: none;
+  }
+}
+
+@keyframes pageTurnBack {
+  0% {
+    transform: translateX(-40%) rotateY(25deg) scale(0.92);
+    opacity: 0;
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.3);
+  }
+  60% {
+    transform: translateX(0) rotateY(3deg) scale(0.99);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0) rotateY(0) scale(1);
+    opacity: 1;
+    box-shadow: none;
+  }
 }
 
 /* ── Scene container ─────────────────────────── */
