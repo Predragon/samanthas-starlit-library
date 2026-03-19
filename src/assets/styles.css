@@ -17,7 +17,7 @@
 
 html, body, #root {
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   background: var(--sky-bottom);
   color: var(--text);
   font-family: var(--font-body);
@@ -101,13 +101,13 @@ html, body, #root {
 
 /* ── Reader ───────────────────────────────────── */
 .reader {
-  height: 100%;
-  width: 100%;
-  position: relative;
+  position: fixed;
+  inset: 0;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   perspective: 1200px;
+  z-index: 50;
 }
 
 .reader-page {
