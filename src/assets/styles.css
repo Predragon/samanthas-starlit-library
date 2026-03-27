@@ -390,8 +390,9 @@ html, body, #root {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #ffeebb, #f0c040);
-  box-shadow: 0 0 40px rgba(240, 192, 64, 0.3), 0 0 80px rgba(240, 192, 64, 0.1);
+  background: radial-gradient(circle at 35% 35%, #d4b060, #b8912e);
+  box-shadow: 0 0 40px rgba(184, 145, 46, 0.25), 0 0 80px rgba(184, 145, 46, 0.08);
+  opacity: 0.45;
   top: 8%;
   right: 12%;
 }
