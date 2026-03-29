@@ -36,6 +36,14 @@ import {
 } from './BicycleNightsScenes';
 
 import {
+  SpWishScene, SpTransformScene, SpWingsScene, SpPhoneScene,
+  SpBluedotScene, SpLiftoffScene, SpFlightScene, SpArrivalScene,
+  SpLandingScene, SpMagicScene, SpBelgradeScene, SpBelgradeWalkScene,
+  SpTataScene, SpFadingScene, SpPromiseScene, SpEmbraceScene,
+  SpWakingScene, SpFinalScene,
+} from './SuperpowerScenes';
+
+import {
   CloudsScene, FlightScene, OceanScene, DefaultScene,
 } from './GenericScenes';
 
@@ -119,6 +127,26 @@ const SCENES = {
   'mammy-waiting': MammyWaitingScene,
   'mammy-kiss': MammyKissScene,
   'carried-to-bed': CarriedToBedScene,
+
+  // Samantha's Superpower
+  'sp-wish': SpWishScene,
+  'sp-transform': SpTransformScene,
+  'sp-wings': SpWingsScene,
+  'sp-phone': SpPhoneScene,
+  'sp-bluedot': SpBluedotScene,
+  'sp-liftoff': SpLiftoffScene,
+  'sp-flight': SpFlightScene,
+  'sp-arrival': SpArrivalScene,
+  'sp-landing': SpLandingScene,
+  'sp-magic': SpMagicScene,
+  'sp-belgrade': SpBelgradeScene,
+  'sp-belgrade-walk': SpBelgradeWalkScene,
+  'sp-tata': SpTataScene,
+  'sp-fading': SpFadingScene,
+  'sp-promise': SpPromiseScene,
+  'sp-embrace': SpEmbraceScene,
+  'sp-waking': SpWakingScene,
+  'sp-final': SpFinalScene,
 
   // Generic fallbacks
   clouds: CloudsScene,

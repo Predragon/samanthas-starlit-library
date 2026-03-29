@@ -1,0 +1,236 @@
+{
+  "id": "samanthas-superpower",
+  "title": "Samantha's Superpower",
+  "emoji": "✨",
+  "author": "Samantha & Dady Fredy",
+  "subtitle": "A Bedtime Story by Samantha & Dady Fredy",
+  "date": "2026-03-30",
+  "dedication": "For Samantha — who already flies, every single day.",
+  "closingEmoji": "✨💤",
+  "theme": {
+    "sky": ["#0f0a2a", "#1a0e3a"],
+    "accent": "#c8a0ff",
+    "mood": "magic-flight"
+  },
+  "refrain": {
+    "lines": ["Fly, Samantha, brave and true,", "There's someone waiting just for you."],
+    "closing": ["Fly, Samantha, close your eyes…", "Love is the wing that never dies."],
+    "afterStanzas": [3, 7, 11]
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Samantha's Superpower",
+      "subtitle": "A Bedtime Story by Samantha & Dady Fredy",
+      "emoji": "✨",
+      "dedication": "For Samantha — who already flies, every single day."
+    },
+    {
+      "type": "verse",
+      "scene": "sp-wish",
+      "stanza": 1,
+      "lines": [
+        "Samantha lay in bed and sighed,",
+        "And whispered to the star outside:",
+        "\"I wish I had a power, just one —",
+        "Wings to fly to everyone.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-transform",
+      "stanza": 2,
+      "lines": [
+        "She closed her eyes. She held her breath.",
+        "The room went still. The world went soft.",
+        "And somewhere between wake and dream,",
+        "Her shoulders glowed with a silver gleam."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-wings",
+      "stanza": 3,
+      "lines": [
+        "Two wings unfolded — feather-light,",
+        "As bright as stars, as soft as night.",
+        "She flexed them once. She flexed them twice.",
+        "They hummed like bells. They smelled like rice."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-phone",
+      "stanza": 4,
+      "lines": [
+        "She picked her phone up from the sheet,",
+        "Its little screen a heartbeat's beat.",
+        "She typed the words she knew by heart:",
+        "\"Find Dady Fredy. Show me the start.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-bluedot",
+      "stanza": 5,
+      "lines": [
+        "A blue dot blinked — then held its place.",
+        "She memorized his little space.",
+        "\"I'm coming, Dady. Hold on tight.",
+        "Your anak has her wings tonight.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-liftoff",
+      "stanza": 6,
+      "lines": [
+        "She opened up the window wide,",
+        "And stepped into the starlit ride.",
+        "Angeles City shrank below —",
+        "The rooftops, streetlamps, Sip & Sing's glow."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-flight",
+      "stanza": 7,
+      "lines": [
+        "She flew past clouds that tasted sweet,",
+        "Past airplanes humming in their sleep.",
+        "Past oceans stitched with silver thread,",
+        "Past mountains wearing snow to bed."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-arrival",
+      "stanza": 8,
+      "lines": [
+        "And there — she saw him through the wall.",
+        "She heard his voice. She heard him call",
+        "The way he always calls at night:",
+        "\"Goodnight, Samantha. Sleep all right.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-landing",
+      "stanza": 9,
+      "lines": [
+        "She landed softly. Touched his hand.",
+        "He looked at her. He couldn't understand.",
+        "\"Anak — you're here? But how? But why?\"",
+        "She grinned: \"I learned how to fly.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-magic",
+      "stanza": 10,
+      "lines": [
+        "\"Now hold my hand,\" Samantha said.",
+        "She closed her eyes and bowed her head.",
+        "A shimmer wrapped them — gold and bright —",
+        "And both of them dissolved in light."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-belgrade",
+      "stanza": 11,
+      "lines": [
+        "They reappeared on Kalemegdan's wall,",
+        "Where Sava meets the Danube's call.",
+        "Belgrade was sleeping — calm and deep —",
+        "And every cobblestone was warm beneath their feet."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-belgrade-walk",
+      "stanza": 12,
+      "lines": [
+        "They walked the streets that Dady knew,",
+        "Past bakeries and plum trees, too.",
+        "He showed her where his mother played,",
+        "The park, the school, the lemonade."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-tata",
+      "stanza": 13,
+      "lines": [
+        "\"This is where your tata grew,\"",
+        "He whispered. \"Now it belongs to you.\"",
+        "Samantha held his hand and smiled.",
+        "Belgrade had waited for this child."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-fading",
+      "stanza": 14,
+      "lines": [
+        "But even superpowers fade with dawn,",
+        "And even magic must move on.",
+        "She felt the dream begin to thin,",
+        "The wings grew soft, the light grew dim."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-promise",
+      "stanza": 15,
+      "lines": [
+        "\"Don't worry, Dady,\" she said, so clear.",
+        "\"I'll fly to you. I'll always be here.",
+        "Whenever you're lonely, whenever you're sad —",
+        "Just look at the sky. Your anak's not bad.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-embrace",
+      "stanza": 16,
+      "lines": [
+        "He laughed. He cried. He held her tight.",
+        "And whispered the words he says every night:",
+        "\"You don't need wings, anak, don't you see?",
+        "You already flew — straight into me.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-waking",
+      "stanza": 17,
+      "lines": [
+        "Samantha opened her eyes in bed.",
+        "The phone was dark. The wings had fled.",
+        "But something warm was in her hand —",
+        "A tiny stone from Belgrade's land."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sp-final",
+      "stanza": 18,
+      "lines": [
+        "So close your bright eyes now, my Samantha, my own,",
+        "You carried your Dady all the way home.",
+        "You don't need a cape or a crown or a key —",
+        "The strongest superpower was always just we."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "sp-final",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "✨💤"
+    }
+  ]
+}
