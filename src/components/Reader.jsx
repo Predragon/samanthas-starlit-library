@@ -46,9 +46,16 @@ function loadTextScale() {
   }
 }
 
+// Time on a page: a relaxed read-aloud pace, never shorter than 4s
+function pageDuration(page) {
+  const words = (page.lines || []).join(' ').split(/\s+/).filter(Boolean).length;
+  return Math.max(4000, 2500 + words * 450);
+}
+
 export default function Reader({ story }) {
   const [pageIndex, setPageIndex] = useState(0);
   const [scaleIndex, setScaleIndex] = useState(loadTextScale);
+  const [autoPlay, setAutoPlay] = useState(false);
   const [turnDir, setTurnDir] = useState(0); // -1 = back, 1 = forward, 0 = initial
   const [isTransitioning, setIsTransitioning] = useState(false);
   const touchRef = useRef(null);
@@ -83,6 +90,14 @@ export default function Reader({ story }) {
   useEffect(() => {
     try { localStorage.setItem(TEXT_SCALE_KEY, String(TEXT_SCALES[scaleIndex])); } catch {}
   }, [scaleIndex]);
+
+  // Auto page turn: restarts on every page change, stops on the last page
+  useEffect(() => {
+    if (!autoPlay) return;
+    if (pageIndex >= total - 1) { setAutoPlay(false); return; }
+    const t = setTimeout(() => go(1), pageDuration(current));
+    return () => clearTimeout(t);
+  }, [autoPlay, pageIndex, total, current, go]);
 
   const resize = (dir) => setScaleIndex(i => Math.max(0, Math.min(TEXT_SCALES.length - 1, i + dir)));
 
@@ -130,6 +145,11 @@ export default function Reader({ story }) {
       <div className={`reader-page ${turnClass}`} key={pageIndex} style={pageStyle}>
         <button className="nav-back" onClick={goBack} aria-label="Back to library">←</button>
         <div className="text-size">
+          <button
+            className={autoPlay ? 'active' : ''}
+            onClick={() => setAutoPlay(p => !p)}
+            aria-label={autoPlay ? 'Pause auto page turn' : 'Start auto page turn'}
+          >{autoPlay ? '❚❚' : '▶\uFE0E'}</button>
           <button onClick={() => resize(-1)} disabled={scaleIndex === 0} aria-label="Smaller text">A−</button>
           <button onClick={() => resize(1)} disabled={scaleIndex === TEXT_SCALES.length - 1} aria-label="Larger text">A+</button>
         </div>

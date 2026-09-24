@@ -382,6 +382,11 @@ html, body, #root {
   background: rgba(255, 255, 255, 0.15);
 }
 
+.text-size button.active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 .text-size button:disabled {
   opacity: 0.3;
   cursor: default;
