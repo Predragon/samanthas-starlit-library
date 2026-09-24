@@ -191,7 +191,7 @@ html, body, #root {
   position: relative;
   z-index: 10;
   text-align: center;
-  max-width: 320px;
+  max-width: min(100%, calc(320px * var(--text-scale, 1)));
   padding: 1rem 1.4rem;
   border-radius: 20px;
   background: rgba(7, 13, 31, 0.55);
@@ -201,7 +201,7 @@ html, body, #root {
 }
 
 .verse-line {
-  font-size: 1.25rem;
+  font-size: calc(1.25rem * var(--text-scale, 1));
   font-weight: 600;
   line-height: 1.8;
   color: #f6f0e4;
@@ -275,7 +275,7 @@ html, body, #root {
 }
 
 .goodnight-text .verse-line {
-  font-size: 1.4rem;
+  font-size: calc(1.4rem * var(--text-scale, 1));
   font-style: italic;
   color: var(--silver);
 }
@@ -295,7 +295,7 @@ html, body, #root {
 
 .refrain-text .verse-line {
   font-style: italic;
-  font-size: 1.15rem;
+  font-size: calc(1.15rem * var(--text-scale, 1));
   color: var(--accent);
   opacity: 0.9;
 }
@@ -352,6 +352,39 @@ html, body, #root {
 
 .nav-back:active {
   background: rgba(255, 255, 255, 0.15);
+}
+
+/* ── Text size control ───────────────────────── */
+.text-size {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 30;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.text-size button {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: var(--text-dim);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.text-size button:active {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.text-size button:disabled {
+  opacity: 0.3;
+  cursor: default;
 }
 
 /* ── Tap zones ───────────────────────────────── */
@@ -538,19 +571,20 @@ html, body, #root {
 
 /* ── Responsive ──────────────────────────────── */
 @media (min-width: 420px) {
-  .verse-line { font-size: 1.4rem; }
+  .verse-line { font-size: calc(1.4rem * var(--text-scale, 1)); }
   .cover-title { font-size: 2.6rem; }
   .bookshelf { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 600px) {
   .bookshelf { grid-template-columns: repeat(3, 1fr); }
-  .verse-text { max-width: 400px; }
+  .verse-text { max-width: min(100%, calc(400px * var(--text-scale, 1))); }
 }
 
 /* ── Safe area insets ────────────────────────── */
 @supports (padding-top: env(safe-area-inset-top)) {
   .nav-back { top: calc(1rem + env(safe-area-inset-top)); }
+  .text-size { top: calc(1rem + env(safe-area-inset-top)); }
   .nav-bar { padding-bottom: calc(1rem + env(safe-area-inset-bottom)); }
   .library { padding-top: calc(2rem + env(safe-area-inset-top)); }
 }

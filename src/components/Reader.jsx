@@ -34,8 +34,21 @@ function buildPages(story) {
   return pages;
 }
 
+const TEXT_SCALES = [0.85, 1, 1.15, 1.3, 1.5];
+const TEXT_SCALE_KEY = 'textScale';
+
+function loadTextScale() {
+  try {
+    const i = TEXT_SCALES.indexOf(Number(localStorage.getItem(TEXT_SCALE_KEY)));
+    return i === -1 ? 1 : i;
+  } catch {
+    return 1;
+  }
+}
+
 export default function Reader({ story }) {
   const [pageIndex, setPageIndex] = useState(0);
+  const [scaleIndex, setScaleIndex] = useState(loadTextScale);
   const [turnDir, setTurnDir] = useState(0); // -1 = back, 1 = forward, 0 = initial
   const [isTransitioning, setIsTransitioning] = useState(false);
   const touchRef = useRef(null);
@@ -66,6 +79,12 @@ export default function Reader({ story }) {
       return () => clearTimeout(t);
     }
   }, [isTransitioning, pageIndex]);
+
+  useEffect(() => {
+    try { localStorage.setItem(TEXT_SCALE_KEY, String(TEXT_SCALES[scaleIndex])); } catch {}
+  }, [scaleIndex]);
+
+  const resize = (dir) => setScaleIndex(i => Math.max(0, Math.min(TEXT_SCALES.length - 1, i + dir)));
 
   const goBack = useCallback(() => {
     window.location.hash = '';
@@ -100,6 +119,7 @@ export default function Reader({ story }) {
     '--sky-top': skyTop,
     '--sky-bottom': skyBottom,
     '--accent': accent,
+    '--text-scale': TEXT_SCALES[scaleIndex],
     background: `linear-gradient(180deg, ${skyTop}, ${skyBottom})`,
   };
 
@@ -109,6 +129,10 @@ export default function Reader({ story }) {
     <div className="reader" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
       <div className={`reader-page ${turnClass}`} key={pageIndex} style={pageStyle}>
         <button className="nav-back" onClick={goBack} aria-label="Back to library">←</button>
+        <div className="text-size">
+          <button onClick={() => resize(-1)} disabled={scaleIndex === 0} aria-label="Smaller text">A−</button>
+          <button onClick={() => resize(1)} disabled={scaleIndex === TEXT_SCALES.length - 1} aria-label="Larger text">A+</button>
+        </div>
 
         {current.type === 'cover' && <Cover page={current} accent={accent} />}
         {current.type === 'verse' && <Page page={current} />}
