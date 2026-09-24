@@ -37,12 +37,16 @@ function buildPages(story) {
 const TEXT_SCALES = [0.85, 1, 1.15, 1.3, 1.5];
 const TEXT_SCALE_KEY = 'textScale';
 
-function loadTextScale() {
+const SPEEDS = [0.75, 1, 1.25, 1.5];
+const SPEED_KEY = 'autoPlaySpeed';
+
+// Index of a stored value in `options`, or `fallback` if missing/unavailable
+function loadIndex(key, options, fallback) {
   try {
-    const i = TEXT_SCALES.indexOf(Number(localStorage.getItem(TEXT_SCALE_KEY)));
-    return i === -1 ? 1 : i;
+    const i = options.indexOf(Number(localStorage.getItem(key)));
+    return i === -1 ? fallback : i;
   } catch {
-    return 1;
+    return fallback;
   }
 }
 
@@ -54,8 +58,10 @@ function pageDuration(page) {
 
 export default function Reader({ story }) {
   const [pageIndex, setPageIndex] = useState(0);
-  const [scaleIndex, setScaleIndex] = useState(loadTextScale);
+  const [scaleIndex, setScaleIndex] = useState(() => loadIndex(TEXT_SCALE_KEY, TEXT_SCALES, 1));
   const [autoPlay, setAutoPlay] = useState(false);
+  const [speedIndex, setSpeedIndex] = useState(() => loadIndex(SPEED_KEY, SPEEDS, 1));
+  const speed = SPEEDS[speedIndex];
   const [turnDir, setTurnDir] = useState(0); // -1 = back, 1 = forward, 0 = initial
   const [isTransitioning, setIsTransitioning] = useState(false);
   const touchRef = useRef(null);
@@ -91,13 +97,18 @@ export default function Reader({ story }) {
     try { localStorage.setItem(TEXT_SCALE_KEY, String(TEXT_SCALES[scaleIndex])); } catch {}
   }, [scaleIndex]);
 
-  // Auto page turn: restarts on every page change, stops on the last page
+  useEffect(() => {
+    try { localStorage.setItem(SPEED_KEY, String(speed)); } catch {}
+  }, [speed]);
+
+  // Auto page turn: restarts on every page or speed change, stops on the last page
+  const turnDelay = pageDuration(current) / speed;
   useEffect(() => {
     if (!autoPlay) return;
     if (pageIndex >= total - 1) { setAutoPlay(false); return; }
-    const t = setTimeout(() => go(1), pageDuration(current));
+    const t = setTimeout(() => go(1), turnDelay);
     return () => clearTimeout(t);
-  }, [autoPlay, pageIndex, total, current, go]);
+  }, [autoPlay, pageIndex, total, turnDelay, go]);
 
   const resize = (dir) => setScaleIndex(i => Math.max(0, Math.min(TEXT_SCALES.length - 1, i + dir)));
 
@@ -143,6 +154,13 @@ export default function Reader({ story }) {
   return (
     <div className="reader" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
       <div className={`reader-page ${turnClass}`} key={pageIndex} style={pageStyle}>
+        {autoPlay && (
+          <div
+            className="autoplay-progress"
+            key={speed}
+            style={{ animationDuration: `${turnDelay}ms` }}
+          />
+        )}
         <button className="nav-back" onClick={goBack} aria-label="Back to library">←</button>
         <div className="text-size">
           <button
@@ -150,6 +168,11 @@ export default function Reader({ story }) {
             onClick={() => setAutoPlay(p => !p)}
             aria-label={autoPlay ? 'Pause auto page turn' : 'Start auto page turn'}
           >{autoPlay ? '❚❚' : '▶\uFE0E'}</button>
+          <button
+            className="speed"
+            onClick={() => setSpeedIndex(i => (i + 1) % SPEEDS.length)}
+            aria-label={`Auto page turn speed ${speed}×`}
+          >{speed}×</button>
           <button onClick={() => resize(-1)} disabled={scaleIndex === 0} aria-label="Smaller text">A−</button>
           <button onClick={() => resize(1)} disabled={scaleIndex === TEXT_SCALES.length - 1} aria-label="Larger text">A+</button>
         </div>
