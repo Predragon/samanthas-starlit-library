@@ -1,0 +1,203 @@
+{
+  "id": "sock-monster",
+  "title": "Princess Samantha and the Sock Monster",
+  "emoji": "🧦",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2026-10-20",
+  "dedication": "For Samantha — the bravest, kindest princess in the whole pink castle.",
+  "closingEmoji": "🧦💤",
+  "theme": {
+    "sky": ["#2a0f2e", "#12061a"],
+    "accent": "#ff8fc8",
+    "mood": "cozy-brave"
+  },
+  "refrain": {
+    "lines": ["Samantha the Brave, with her crown on her head,", "Never gives up till the monster's in bed!"],
+    "closing": ["Samantha the Brave, with her crown on her head,", "Is snuggled up safe and asleep in her bed."],
+    "afterStanzas": [5, 11]
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Princess Samantha and the Sock Monster",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "🧦",
+      "dedication": "For Samantha — the bravest, kindest princess in the whole pink castle."
+    },
+    {
+      "type": "verse",
+      "scene": "sm-castle",
+      "stanza": 1,
+      "lines": [
+        "In a little pink castle, when day turned to night,",
+        "Princess Samantha was tucked in just right.",
+        "Her bunny named Button lay snug by her head,",
+        "With his floppy pink ears on her soft pillow-bed."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-goodnight",
+      "stanza": 2,
+      "lines": [
+        "Then Dady came in for a goodnight kiss —",
+        "\"Sweet dreams, my princess, my sweet little miss!\"",
+        "But just as he turned off the lamp with a click,",
+        "The closet door creaked… and it opened up quick!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-monster",
+      "stanza": 3,
+      "lines": [
+        "Out tumbled a monster, all lumpy and tall,",
+        "Made of all the lost socks, from the big to the small!",
+        "There were stripy ones, spotty ones, woolly and grey,",
+        "And one pink sock with hearts on — its nose, by the way!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-snatch",
+      "stanza": 4,
+      "lines": [
+        "\"I'm the SOCK MONSTER!\" it rumbled. \"Hooray!",
+        "I'm taking your Dady to Sock Land today!\"",
+        "It wrapped Dady Fredy in socks head to toe,",
+        "Then WHOOSH through the closet — and off they did go!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-brave",
+      "stanza": 5,
+      "lines": [
+        "Samantha sat up. Did she cry? Did she hide?",
+        "NO! She put on her crown, with her bunny beside.",
+        "\"Don't worry,\" said Button, with a wiggle and hop,",
+        "\"We'll get Dady back, and we never will stop!\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-sockland",
+      "stanza": 6,
+      "lines": [
+        "Through the closet they tiptoed, past coats and past shoes,",
+        "Into Sock Land — a land of all colors and hues!",
+        "There were sock-trees and sock-hills and a sock-river too,",
+        "And little sock-birdies that sang \"Sock-a-doo!\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-crying",
+      "stanza": 7,
+      "lines": [
+        "They hopped over mountains of slippers and lace,",
+        "Till they found the Sock Monster — with tears on its face!",
+        "It sat all alone on a big woolly stone,",
+        "And Dady was stuck on a stripy sock-throne."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-why",
+      "stanza": 8,
+      "lines": [
+        "\"Why are you crying?\" Samantha asked, kind.",
+        "The monster sniffed, \"My best sock friend I can't find!",
+        "I'm a sock with no partner — I'm one, not a pair,",
+        "So I took someone's Dady to have someone there.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-nook",
+      "stanza": 9,
+      "lines": [
+        "Samantha thought hard — then Button said, \"LOOK!\"",
+        "And he pointed his paw at a dark little nook.",
+        "There, curled up and sleepy, all cozy and bright,",
+        "Was a pink sock with hearts — and it matched it just right!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-match",
+      "stanza": 10,
+      "lines": [
+        "She carried it over and held it up high:",
+        "\"Here's your missing sock-partner! No more need to cry!\"",
+        "The monster went quiet… then wiggled with glee,",
+        "\"My partner! My pair! Oh, how happy I'll be!\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-sorry",
+      "stanza": 11,
+      "lines": [
+        "\"I'm sorry I took him. I just felt alone.",
+        "Now I've found my best sock — so go on, take him home!\"",
+        "It unwrapped Dady Fredy, so gentle and slow,",
+        "Then hugged them both close with its pink heart-sock nose."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-home",
+      "stanza": 12,
+      "lines": [
+        "Back through the closet, past coats and past shoes,",
+        "They hurried, all three, with no time to lose.",
+        "Then Dady tucked her in and squeezed her up tight:",
+        "\"My brave little princess — you saved me tonight!\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-proud",
+      "stanza": 13,
+      "lines": [
+        "\"You didn't use swords, and you didn't use might —",
+        "You were clever and kind, and you made it all right.",
+        "The bravest of hearts doesn't roar or attack,",
+        "It helps a lost friend find their way back.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-lost-socks",
+      "stanza": 14,
+      "lines": [
+        "So if ever your sock goes missing one day,",
+        "Don't worry — it's gone off to Sock Land to play.",
+        "It's keeping the Sock Monster company there,",
+        "So nobody, ever, is missing a pair."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "sm-sleepy",
+      "stanza": 15,
+      "lines": [
+        "Now Button is yawning, the moon's glowing pink,",
+        "And Samantha's eyes close in a slow, sleepy blink.",
+        "Goodnight, little princess, so brave and so true…",
+        "Sweet dreams — and the Sock Monster says goodnight too."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "sm-sleepy",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🧦💤"
+    }
+  ]
+}

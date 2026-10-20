@@ -44,6 +44,13 @@ import {
 } from './SuperpowerScenes';
 
 import {
+  SmCastleScene, SmGoodnightScene, SmMonsterScene, SmSnatchScene,
+  SmBraveScene, SmSocklandScene, SmCryingScene, SmWhyScene,
+  SmNookScene, SmMatchScene, SmSorryScene, SmHomeScene,
+  SmProudScene, SmLostSocksScene, SmSleepyScene,
+} from './SockMonsterScenes';
+
+import {
   CloudsScene, FlightScene, OceanScene, DefaultScene,
 } from './GenericScenes';
 
@@ -147,6 +154,23 @@ const SCENES = {
   'sp-embrace': SpEmbraceScene,
   'sp-waking': SpWakingScene,
   'sp-final': SpFinalScene,
+
+  // Sock Monster
+  'sm-castle': SmCastleScene,
+  'sm-goodnight': SmGoodnightScene,
+  'sm-monster': SmMonsterScene,
+  'sm-snatch': SmSnatchScene,
+  'sm-brave': SmBraveScene,
+  'sm-sockland': SmSocklandScene,
+  'sm-crying': SmCryingScene,
+  'sm-why': SmWhyScene,
+  'sm-nook': SmNookScene,
+  'sm-match': SmMatchScene,
+  'sm-sorry': SmSorryScene,
+  'sm-home': SmHomeScene,
+  'sm-proud': SmProudScene,
+  'sm-lost-socks': SmLostSocksScene,
+  'sm-sleepy': SmSleepyScene,
 
   // Generic fallbacks
   clouds: CloudsScene,
