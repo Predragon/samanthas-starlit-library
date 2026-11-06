@@ -51,6 +51,13 @@ import {
 } from './SockMonsterScenes';
 
 import {
+  FwWalkScene, FwForestScene, FwFindScene, FwIvanaScene,
+  FwPromiseScene, FwPawprintsScene, FwOwlScene, FwDuskScene,
+  FwWillowScene, FwMeadowScene, FwReunionScene, FwCloverScene,
+  FwGoodbyeScene, FwProudScene, FwShouldersScene, FwSleepyScene,
+} from './ForestIvanaScenes';
+
+import {
   CloudsScene, FlightScene, OceanScene, DefaultScene,
 } from './GenericScenes';
 
@@ -171,6 +178,24 @@ const SCENES = {
   'sm-proud': SmProudScene,
   'sm-lost-socks': SmLostSocksScene,
   'sm-sleepy': SmSleepyScene,
+
+  // Samantha and the Little Lost Bunny
+  'fw-walk': FwWalkScene,
+  'fw-forest': FwForestScene,
+  'fw-find': FwFindScene,
+  'fw-ivana': FwIvanaScene,
+  'fw-promise': FwPromiseScene,
+  'fw-pawprints': FwPawprintsScene,
+  'fw-owl': FwOwlScene,
+  'fw-dusk': FwDuskScene,
+  'fw-willow': FwWillowScene,
+  'fw-meadow': FwMeadowScene,
+  'fw-reunion': FwReunionScene,
+  'fw-clover': FwCloverScene,
+  'fw-goodbye': FwGoodbyeScene,
+  'fw-proud': FwProudScene,
+  'fw-shoulders': FwShouldersScene,
+  'fw-sleepy': FwSleepyScene,
 
   // Generic fallbacks
   clouds: CloudsScene,

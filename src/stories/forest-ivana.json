@@ -1,0 +1,214 @@
+{
+  "id": "forest-ivana",
+  "title": "Samantha and the Little Lost Bunny",
+  "emoji": "🐰",
+  "author": "Dady Fredy",
+  "subtitle": "A Bedtime Story by Dady Fredy",
+  "date": "2026-11-06",
+  "dedication": "For Samantha — who always has room in her hands for someone small.",
+  "closingEmoji": "🐰🍀💤",
+  "theme": {
+    "sky": ["#0d2a22", "#06120e"],
+    "accent": "#a8e6a0",
+    "mood": "gentle-adventure"
+  },
+  "refrain": {
+    "lines": ["Step by step, through the forest so deep,", "We'll take little Ivana home before sleep!"],
+    "closing": ["Step by step, through the forest so deep,", "Ivana is home — and Samantha's asleep."],
+    "afterStanzas": [5, 8]
+  },
+  "pages": [
+    {
+      "type": "cover",
+      "title": "Samantha and the Little Lost Bunny",
+      "subtitle": "A Bedtime Story by Dady Fredy",
+      "emoji": "🐰",
+      "dedication": "For Samantha — who always has room in her hands for someone small."
+    },
+    {
+      "type": "verse",
+      "scene": "fw-walk",
+      "stanza": 1,
+      "lines": [
+        "When the sun was all golden and sinking down low,",
+        "Dady Fredy said, \"Shoes on, my love — let's go!\"",
+        "So hand in big hand, down the path they did stride,",
+        "To the whispering forest, so green and so wide."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-forest",
+      "stanza": 2,
+      "lines": [
+        "The pine trees stood tall and the ferns waved hello,",
+        "A woodpecker knocked, and a stream gurgled slow.",
+        "\"Shh,\" whispered Dady, \"now listen — be still…\"",
+        "And they heard a small sniffle from under the hill."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-find",
+      "stanza": 3,
+      "lines": [
+        "Behind a big mushroom, all spotty and red,",
+        "Sat a teeny-tiny bunny with a leaf on her head!",
+        "Her fur was as white as a dandelion puff,",
+        "And she trembled and sniffled — her day had been tough."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-ivana",
+      "stanza": 4,
+      "lines": [
+        "\"Hello there,\" Samantha said, kneeling down low,",
+        "\"Why so sad, little bunny? Where do you need to go?\"",
+        "\"I'm Ivana,\" she sniffled. \"I followed a bee,",
+        "Now I'm lost, and my mama can't find little me!\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-promise",
+      "stanza": 5,
+      "lines": [
+        "Samantha held out her two hands like a cup,",
+        "And Ivana hopped in — she was light as a pup.",
+        "\"Don't worry,\" Samantha said, \"soon you will see —",
+        "We'll find your home, Ivana, my Dady and me!\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-pawprints",
+      "stanza": 6,
+      "lines": [
+        "Dady Fredy knelt down by a puddle of mud:",
+        "\"Look — tiny paw prints! Little hop, little thud!\"",
+        "They followed the prints past a log and a stone,",
+        "Past a hedgehog asleep, all curled up on his own."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-owl",
+      "stanza": 7,
+      "lines": [
+        "An owl in an oak tree called, \"Hoo? Who goes there?\"",
+        "\"We're helping Ivana! Is her mama somewhere?\"",
+        "The owl blinked her big eyes and turned round her head:",
+        "\"Go past the old willow, to the clover-patch bed.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-dusk",
+      "stanza": 8,
+      "lines": [
+        "Now the forest grew darker, the shadows grew long,",
+        "And the crickets began their soft evening song.",
+        "Samantha held tight to her Dady's warm hand —",
+        "Then a thousand small fireflies lit up the land!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-willow",
+      "stanza": 9,
+      "lines": [
+        "The fireflies twinkled a path through the night,",
+        "To the old weeping willow, all silver and bright.",
+        "They pushed back its branches, like curtains of green —",
+        "And there was the loveliest meadow they'd seen!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-meadow",
+      "stanza": 10,
+      "lines": [
+        "A meadow of clover, all moonlit and sweet,",
+        "And a rabbit stood calling, up high on her feet:",
+        "\"Ivana! Ivana! Oh, where can you be?\"",
+        "\"MAMA!\" squeaked Ivana. \"It's me! It's ME!\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-reunion",
+      "stanza": 11,
+      "lines": [
+        "Ivana jumped down with a hop and a bound,",
+        "And snuggled her mama — at last she was found!",
+        "Her brothers and sisters came tumbling to see,",
+        "And they wiggled their noses with bunny-hop glee!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-clover",
+      "stanza": 12,
+      "lines": [
+        "\"Thank you,\" said Mama, \"you're kind and you're true.",
+        "You brought my girl home — so this is for you.\"",
+        "A four-leaf clover, so tiny and green:",
+        "The luckiest present Samantha had seen!"
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-goodbye",
+      "stanza": 13,
+      "lines": [
+        "\"Come back and visit!\" Ivana called out,",
+        "With a flick of her tail and a twitch of her snout.",
+        "Samantha blew kisses and waved her goodbye,",
+        "As the fireflies led them back under the sky."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-proud",
+      "stanza": 14,
+      "lines": [
+        "\"I'm so proud,\" whispered Dady, \"of you, my brave one —",
+        "You helped someone small till the helping was done.",
+        "When someone feels frightened and lost in the night,",
+        "A kind, gentle heart is the very best light.\""
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-shoulders",
+      "stanza": 15,
+      "lines": [
+        "Samantha was sleepy, her steps slow and small,",
+        "So Dady Fredy lifted her up, up, up tall.",
+        "On his shoulders she rode past the trees and the stream,",
+        "With her clover held tight, almost lost in a dream."
+      ]
+    },
+    {
+      "type": "verse",
+      "scene": "fw-sleepy",
+      "stanza": 16,
+      "lines": [
+        "Now the clover is tucked by her pillow just right,",
+        "And off in the forest, Ivana sleeps tight.",
+        "Two little girls dreaming beneath the same moon…",
+        "Goodnight, my Samantha. Sweet dreams — see you soon."
+      ]
+    },
+    {
+      "type": "goodnight",
+      "scene": "fw-sleepy",
+      "lines": [
+        "Goodnight, Samantha.",
+        "Goodnight, anak."
+      ],
+      "emoji": "🐰🍀💤"
+    }
+  ]
+}
